@@ -1,17 +1,23 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JL Elétrica</title>
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JL Elétrica</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header>
     <div class="top-bar">
-      <h1><span class="logo-bold">JL</span> <span class="logo-highlight">Elétrica</span></h1>
+      <h1></i><span class="logo-bold">JL</span> <span class="accent-color">Elétrica</span></h1>
       <div class="search-bar">
         <input type="text" placeholder="Pesquise aqui" />
         <span class="icon">&#128269;</span>
@@ -20,7 +26,7 @@
     </div>
     <nav>
       <ul>
-        <li><a href="#">Sobre</a></li>
+        <li><a href="#hero">Sobre</a></li>
         <li><a href="#">Serviços</a></li>
         <li><a href="#">Compras</a></li>
         <li><a href="#">Contato</a></li>
@@ -28,42 +34,81 @@
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>JL ELETRICA</h2>
-      <h1>SOLUÇÕES <span class="yellow">ELÉTRICAS</span> COMPLETAS</h1>
-      <p>Do Residencial ao Industrial.</p>
-      <div class="contacts">
-        <span>📞 77 99943-0938</span>
-        <span>🌐 Jlelectricabdo@gmail.com</span>
-      </div>
-    </div>
-    <div class="hero-image">
-      <img src="https://i.imgur.com/JIBU3Q7.jpeg" alt="Quadro elétrico" />
-    </div>
-  </section>
+    <section id="hero" class="hero">
+        <div id="hero_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-container">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <h2><i class="fa-solid fa-lightbulb accent-color"></i> JL <span class="accent-color">ELÉTRICA</span></h2>
+                                <h1>SOLUÇÕES <span class="accent-color">ELÉTRICAS</span></h1>
+                                <p>Do Residencial ao Industrial.</p>    
+                            </div>
+                            <div class="contacts">
+                                <span>
+                                    <a href=""><i class="fa-brands fa-whatsapp accent-color"></i> (77) 99943-0938</a>
+                                </span>
+                                <span>
+                                    <a href=""><i class="fa-solid fa-globe accent-color"></i> Jlelectricabdo@gmail.com</a>
+                                </span>   
+                            </div> 
+                        </div>
+                    
+                        <div class="hero-image">
+                            <img src="/assets/Quadro elétrico.svg" alt="Quadro elétrico" />
+                        </div>
+                    </div>
+                </div>
 
-  <section class="features">
-    <div class="feature">
-      <div class="icon">💡</div>
-      <h3>Soluções Inteligentes</h3>
-      <p>Analisamos sua necessidade para entregar a solução ideal, do simples ao complexo.</p>
-    </div>
-    <div class="feature">
-      <div class="icon">🔌</div>
-      <h3>Máxima Eficiência</h3>
-      <p>Soluções que otimizam o consumo de energia e garantem o melhor desempenho.</p>
-    </div>
-    <div class="feature">
-      <div class="icon">🏢🔒</div>
-      <h3>Instalações Seguras</h3>
-      <p>Trabalhamos para garantir que seu sistema elétrico seja 100% seguro e confiável.</p>
-    </div>
-    <div class="feature">
-      <div class="icon">📄</div>
-      <h3>Serviço dentro da Norma</h3>
-      <p>Projetos executados em total conformidade com as normas ABNT, garantindo sua segurança.</p>
-    </div>
-  </section>
+                <div class="carousel-item">
+                    <div class="carousel-container">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <h2><i class="fa-solid fa-lightbulb accent-color"></i> JL <span class="accent-color">RESIDENCIAL</span></h2>
+                                <h1>INSTALAÇÕES <span class="accent-color">EFICIENTES</span></h1>
+                                <p>Conforto, economia e segurança para sua casa.</p>    
+                            </div>
+
+                            <div class="contacts">
+                                <span><a href=""><i class="fa-brands fa-whatsapp accent-color"></i> (77) 99943-0938</a></span>
+                                <span><a href=""><i class="fa-solid fa-globe accent-color"></i> Jlelectricabdo@gmail.com</a></span>
+                            </div> 
+                        </div>
+                        <div class="hero-image">
+                            <img src="/assets/Cameras.svg" alt="Cameras de Segurança" />
+                        </div>
+                    </div>
+                </div>
+                <!-- outras .carousel-item se necessário -->
+            </div>
+        </div>
+    </section>
+
+
+    <section class="features">
+        <div class="feature">
+            <div class="icon">💡</div>
+            <h3>Soluções Inteligentes</h3>
+            <p>Analisamos sua necessidade para entregar a solução ideal, do simples ao complexo.</p>
+        </div>
+        <div class="feature">
+            <div class="icon">🔌</div>
+            <h3>Máxima Eficiência</h3>
+            <p>Soluções que otimizam o consumo de energia e garantem o melhor desempenho.</p>
+        </div>
+        <div class="feature">
+            <div class="icon">🏢🔒</div>
+            <h3>Instalações Seguras</h3>
+            <p>Trabalhamos para garantir que seu sistema elétrico seja 100% seguro e confiável.</p>
+        </div>
+        <div class="feature">
+            <div class="icon">📄</div>
+            <h3>Serviço dentro da Norma</h3>
+            <p>Projetos executados em total conformidade com as normas ABNT, garantindo sua segurança.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

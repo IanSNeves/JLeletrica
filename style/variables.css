@@ -1,0 +1,38 @@
+
+:root {
+  /* Base neutra */
+  --white: #ffffff;
+  --black: #000000;
+  --gray-light: #f5f5f5;
+  --gray-dark: #333333;
+
+  /* Fundo */
+  --background-color: #0F2346;       /* fundo principal do site */
+  --background-dark: #1d3b58;        /* áreas de destaque/escuras */
+
+  /* Paleta temática */
+  --primary-color: #014E84;          /* azul principal (barra superior) */
+  --secondary-color: #00aeef;        /* azul claro para botões/links */
+  --tertiary-color: #1d3b58;         /* azul escuro intermediário */
+  --accent-color: #FFE900;           /* amarelo principal de destaque */
+
+  /* Texto */
+  --text-color: #ffffff;             /* texto em fundo escuro */
+  --text-inverted: #0F2346;          /* texto sobre fundo claro */
+  --text-muted: #feda15;             /* texto amarelo secundário */
+
+  /* Estados (UI Feedback) */
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #00aeef;
+
+  /* Hover/Interação */
+  --hover-color: #feda15;            /* hover em botões com amarelo mais escuro */
+  --hover-secondary: #1d3b58;        /* hover em elementos escuros */
+  --button-shadow: rgba(0, 0, 0, 0.2);
+
+  /* Bordas e efeitos */
+  --border-color: #dcdcdc;
+  --card-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
