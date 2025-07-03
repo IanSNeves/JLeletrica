@@ -1,0 +1,22 @@
+.feature {
+  background-color: var(--background-dark);
+  text-align: center;
+  margin: 0 !important;
+} 
+
+.feature .icon {
+  font-size: 7rem;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: var(--text-muted);
+}
