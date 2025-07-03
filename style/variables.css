@@ -7,19 +7,20 @@
   --gray-dark: #333333;
 
   /* Fundo */
-  --background-color: #0F2346;       /* fundo principal do site */
-  --background-dark: #1d3b58;        /* áreas de destaque/escuras */
+  --background-color: #0F2346;       
+  --background-dark: #1d3b58;        
+  --background-ligth: #6283bd;
 
   /* Paleta temática */
-  --primary-color: #014E84;          /* azul principal (barra superior) */
-  --secondary-color: #00aeef;        /* azul claro para botões/links */
-  --tertiary-color: #1d3b58;         /* azul escuro intermediário */
-  --accent-color: #FFE900;           /* amarelo principal de destaque */
+  --primary-color: #0353a4;          
+  --secondary-color: #00aeef;        
+  --tertiary-color: #1d3b58;         
+  --accent-color: #FFE900;           
 
   /* Texto */
-  --text-color: #ffffff;             /* texto em fundo escuro */
-  --text-inverted: #0F2346;          /* texto sobre fundo claro */
-  --text-muted: #feda15;             /* texto amarelo secundário */
+  --text-color: #f8fcff;             
+  --text-inverted: #0F2346;          
+  --text-muted: #e7e7e7;             
 
   /* Estados (UI Feedback) */
   --success-color: #28a745;

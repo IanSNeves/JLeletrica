@@ -1,13 +1,24 @@
 .hero {
-  background-color: #011627;
+  background-image: url(/assets/hero-background.svg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 900px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 3%;
 }
 
 .hero-content {
   display: flex;
-  flex: 1;
-  flex-wrap: wrap; 
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
   padding-left: 5rem;
-  gap: 8rem;
+  gap: 4rem;
+
 }
 
 .carousel-container {
@@ -18,53 +29,86 @@
   align-items: center;
 }
 
+.hero-subtitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
 .hero-image {
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  height: 100%;
 }
 
 .hero-image img {
   max-width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
 .hero-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
 }
 
 .hero-text h1 {
   font-size: 36px;
-  margin: 10px 0;
 }
 
-.hero-text h1, h2 {
+.hero-text h1 {
   font-weight: bolder;
 }
 
 
 .hero-text p {
   font-size: 18px;
-  margin-bottom: 20px;
 }
 
 .contacts {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1.5rem;
 }
 
 .contacts span {
   display: flex;
   margin-bottom: 8px;
   font-size: 16px;
+  align-items: center;
 }
 
 .contacts span a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--text-color);
+  gap: 0.5rem;
 }
 
+.contacts i {
+  font-size: 1.3rem;
+}
+
+
+.carousel-item {
+  transition: transform 6.0s ease-in-out !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    flex-direction: column;
+  }
+  
+  .hero-content {
+    padding-top: 2rem;
+  }
+
+  .contacts {
+    display: none;
+  }
+}
