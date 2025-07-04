@@ -1,0 +1,10 @@
+// 1. Variáveis e configurações
+@import 'variables';
+
+// 2. Estilos Globais
+@import 'global';
+
+// 3. Layouts de componentes
+@import 'layouts/header';
+@import 'layouts/hero';
+@import 'layouts/features';
